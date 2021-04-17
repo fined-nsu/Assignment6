@@ -21,11 +21,17 @@ public class EnemyController : MonoBehaviour
         enemyAgent.SetDestination(player.transform.position);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if(other.gameObject == player)
+        if (collision.gameObject == player)
         {
             InfoTracker.lives--;
+            if (InfoTracker.score >= InfoTracker.bestRoundScore)
+            {
+                InfoTracker.bestRoundScore = InfoTracker.score;
+            }
+            InfoTracker.score = 0;
+
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637540412682923358
+      ticks: 637541530570000000
     m_Hash: 2429001870
   m_LockFileStatus:
     m_FilePath: C:/Users/fined/Google Drive/School/Game Programming/Assignment6/NavMeshGame/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637541229121111568
+      ticks: 637541530570000000
     m_Hash: 664634206
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
